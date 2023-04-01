@@ -25,7 +25,7 @@ div {
 
 footer {
     margin-top: 2em;
-    border-top: 0.2em solid var(--colour-black);
+    border-top: 0.1em solid var(--colour-black);
 
 }
 
@@ -64,7 +64,7 @@ p {
     border: 0.1em solid var(--colour-black);
     background: transparent;
     z-index: 1;
-    transition: all 0.1s ease-out;
+    transition: all 0.1s ease;
     font-family: courier, monospace;
     transform: translate(-1em, 0);
   }
@@ -103,13 +103,21 @@ p {
     color: var(--colour-accent);
     border-color: var(--colour-accent);
     background-size: 90%;
-    transform: translate(0.5em, -0.5em);
+    transform: translate(-1.4em, 0.4em);
 }
 
 .btn:hover:after,
 .btn:hover:before {
     background-color: var(--colour-accent);
     border-color: var(--colour-accent);
+}
+
+.btn:hover:before {
+    width: 0.1em;
+}
+
+.btn:hover:after {
+    height: 0.1em;
 }
 
 .navbtn{
