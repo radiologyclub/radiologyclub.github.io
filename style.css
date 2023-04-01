@@ -9,6 +9,7 @@ body {
     font-family: 'courier', monospace;
     color: var(--colour-black);
     background-color: var(--colour-white);
+    width: 75%;
 }
 
 header {
@@ -147,6 +148,9 @@ p {
 }
 
 @media (max-width: 767px) {
+    body {
+        width: 90%;
+    }
     h1 {
         font-size: 3.5vw;
     }
