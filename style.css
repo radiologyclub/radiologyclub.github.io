@@ -149,8 +149,10 @@ p {
 .callout {
     border: 0.1em solid var(--colour-black);
     border-radius:1em;
-    width: 75%;
+    width: 100%;
     padding:2em;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 @media (max-width: 767px) {
