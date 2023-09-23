@@ -40,7 +40,7 @@ h1 {
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .content-block {
@@ -124,7 +124,7 @@ p {
     background-color: var(--colour-black);
     cursor: pointer;
     color: var(--colour-white);
-    font-size: 1vw;
+    font-size: 2vw;
     padding: 1.5vw;
     border: 0.2em solid var(--colour-black);
     border-radius: 3vw;
@@ -163,7 +163,7 @@ p {
         font-size: 3.5vw;
     }
     p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .hidden-mobile {
       display: none;
