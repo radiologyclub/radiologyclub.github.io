@@ -124,7 +124,7 @@ p {
     background-color: var(--colour-black);
     cursor: pointer;
     color: var(--colour-white);
-    font-size: 2vw;
+    font-size: 1vw;
     padding: 1.5vw;
     border: 0.2em solid var(--colour-black);
     border-radius: 3vw;
